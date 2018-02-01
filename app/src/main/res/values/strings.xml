@@ -1,3 +1,17 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">JustJava</string>
+
+    <!--Header text for list of topping {char limit 20}-->
+    <string name="toppings">Topping</string>
+    <!-- Thank you message for the order summary. char limit = none -->
+    <string name="thank_you">Thank you!</string>
+    <string name="Add_whipped_cream">Add whipped cream?</string>
+    <string name="Add_chololate">Add chololate?</string>
+    <string name="Quantity">Quantity:</string>
+    <string name="Total">Total: $</string>
+    <string name="order">order</string>
+
+    <!-- Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+    user name char limit = none -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
 </resources>
